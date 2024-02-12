@@ -36,7 +36,7 @@ if ($user) {
                 <a class="navbar-brand" href="{{url('/login')}}">Student CRUD System</a>
             </li>
             <li class="nav-item" id="hm">
-                <a class="nav-link ms-3 active" href="{{url('/admin1')}}">Home</a>
+                <a class="nav-link ms-3 active" href="{{url('/admin2')}}">Home</a>
             </li>
             <li class="nav-item" id="hm">
                 <a class="nav-link ms-3 active" href="{{url('/manageuser')}}">Manage User</a>
