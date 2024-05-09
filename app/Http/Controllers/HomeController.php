@@ -3,11 +3,11 @@
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Http\Request;
-use App\Models\ Users;
-use App\Models\ Countries;
-use App\Models\ Cities;
-use App\Models\ States;
-use App\Models\ classes;
+use App\Models\Users;
+use App\Models\Countries;
+use App\Models\Cities;
+use App\Models\States;
+use App\Models\classes;
 use App\Models\student_marks;
 
 class HomeController extends Controller

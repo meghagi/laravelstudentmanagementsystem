@@ -168,7 +168,7 @@
                 </td>
                 <td>
                     <a href="{{Route('update',['id'=>$user1->id])}}" class="mr-3 btn btn-secondary" title="Edit Details" data-toggle="tooltip">
-                        <span class="fa fa-pencil"></span>
+                        <span class="fa fa-pencil">Edit</span>
                     </a>
                 </td>
                 <td>
@@ -179,7 +179,7 @@
                         <a href="javascript:void(0)" title="Change Status" id="{{ $user1->id }}" class="delete_btn_ajax btn btn-danger" data-toggle="tooltip"><span class="fas fa-trash"></span></a><input type="hidden" class="delete_id_value" value='{{$user1->id}}'></td>
                     </a>
                 </td>
-                <td>
+                
                 <td>Change role to: <a href="javascript:void(0)" title="Change Status" id="{{ $user1->id }}" class="student_btn_ajax btn btn-success ms-3 mt-2" data-toggle="tooltip">Student</a><input type="hidden" class="student_id_value" value='{{$user1->id}}'>
                                             <a href="javascript:void(0)" title="Change Status" id="{{ $user1->id }}" class="admission_btn_ajax btn btn-success ms-3 mt-2" data-toggle="tooltip">Admission</a><input type="hidden" class="admission_id_value" value='{{$user1->id}}'>
                                             <a href="javascript:void(0)" title="Change Status" id="{{ $user1->id }}" class="teacher_btn_ajax btn btn-success ms-3 mt-2" data-toggle="tooltip">Teacher</a><input type="hidden" class="teacher_id_value" value='{{$user1->id}}'></td>

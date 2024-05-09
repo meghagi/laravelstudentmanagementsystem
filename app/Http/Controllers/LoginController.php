@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\ Users; 
+use App\Models\Users; 
 use Illuminate\Support\Facades\Session;
 
 class LoginController extends Controller
